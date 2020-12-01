@@ -1,0 +1,7 @@
+article [data-testid="tweet"] > *:first-child a * {
+  background-color: #333 !important;
+}
+
+article [data-testid="tweet"] > *:nth-child(2) > *:first-child a span {
+  opacity: 0 !important;
+}
